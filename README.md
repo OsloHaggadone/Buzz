@@ -7,3 +7,10 @@ Start counting:
 If the next number is divisible by or contains a buzz number, type "buzz".
 Otherwise, type the number.
 The game ends if you make a mistake.
+
+4 / 28 / 2026 UPDATE:
+Revised the code for corrected intended behavior.
+
+In the game, a number 'including' its number by the given buzz index should count as a 'buzz'. 
+
+Ie, buzz index = 13, on the number 13, it should be a 'buzz'. 
