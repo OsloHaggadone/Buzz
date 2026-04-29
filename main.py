@@ -109,8 +109,8 @@ class BuzzGame:
         print("You lost.")    
 
     def isBuzz(self, input):
-        if input in self.buzz: return True
         for index in self.buzz:
+            if str(index) in str(input): return True
             if int(input) % int(index) == 0: return True
         return False
 
